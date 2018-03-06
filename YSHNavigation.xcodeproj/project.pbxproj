@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A296CADB5D47C3511BC9971D /* libPods-YSHNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3B6C2BD51D1895EA786E99 /* libPods-YSHNavigation.a */; };
+		FE1B01A4204D165700744561 /* SNYGRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1B01A3204D165700744561 /* SNYGRefreshHeader.m */; };
+		FE1B01AA204D3CE900744561 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1B01A9204D3CE900744561 /* UIView+Animation.m */; };
+		FEA175A9204CE50300CDA72F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA175A8204CE50300CDA72F /* AppDelegate.m */; };
+		FEA175AC204CE50300CDA72F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA175AB204CE50300CDA72F /* ViewController.m */; };
+		FEA175AF204CE50300CDA72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA175AD204CE50300CDA72F /* Main.storyboard */; };
+		FEA175B1204CE50300CDA72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA175B0204CE50300CDA72F /* Assets.xcassets */; };
+		FEA175B4204CE50300CDA72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA175B2204CE50300CDA72F /* LaunchScreen.storyboard */; };
+		FEA175B7204CE50300CDA72F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA175B6204CE50300CDA72F /* main.m */; };
+		FEA175C1204CE50300CDA72F /* YSHNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA175C0204CE50300CDA72F /* YSHNavigationTests.m */; };
+		FEA175CC204CE50300CDA72F /* YSHNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA175CB204CE50300CDA72F /* YSHNavigationUITests.m */; };
+		FEA175DB204CE75200CDA72F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA175DA204CE75200CDA72F /* BaseViewController.m */; };
+		FEA175DE204CE97200CDA72F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA175DD204CE97200CDA72F /* OneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA175BD204CE50300CDA72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA1759C204CE50300CDA72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA175A3204CE50300CDA72F;
+			remoteInfo = YSHNavigation;
+		};
+		FEA175C8204CE50300CDA72F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA1759C204CE50300CDA72F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA175A3204CE50300CDA72F;
+			remoteInfo = YSHNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5F551F5AE8C9632FD5F981 /* Pods-YSHNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSHNavigation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSHNavigation/Pods-YSHNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		F5902CBF249CAC1133548DD9 /* Pods-YSHNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSHNavigation.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSHNavigation/Pods-YSHNavigation.release.xcconfig"; sourceTree = "<group>"; };
+		FA3B6C2BD51D1895EA786E99 /* libPods-YSHNavigation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSHNavigation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1B01A2204D165700744561 /* SNYGRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNYGRefreshHeader.h; sourceTree = "<group>"; };
+		FE1B01A3204D165700744561 /* SNYGRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNYGRefreshHeader.m; sourceTree = "<group>"; };
+		FE1B01A8204D3CE900744561 /* UIView+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		FE1B01A9204D3CE900744561 /* UIView+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		FEA175A4204CE50300CDA72F /* YSHNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSHNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA175A7204CE50300CDA72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEA175A8204CE50300CDA72F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEA175AA204CE50300CDA72F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEA175AB204CE50300CDA72F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEA175AE204CE50300CDA72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA175B0204CE50300CDA72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA175B3204CE50300CDA72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEA175B5204CE50300CDA72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA175B6204CE50300CDA72F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEA175BC204CE50300CDA72F /* YSHNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA175C0204CE50300CDA72F /* YSHNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHNavigationTests.m; sourceTree = "<group>"; };
+		FEA175C2204CE50300CDA72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA175C7204CE50300CDA72F /* YSHNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSHNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA175CB204CE50300CDA72F /* YSHNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSHNavigationUITests.m; sourceTree = "<group>"; };
+		FEA175CD204CE50300CDA72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA175D9204CE75200CDA72F /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FEA175DA204CE75200CDA72F /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FEA175DC204CE97200CDA72F /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		FEA175DD204CE97200CDA72F /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA175A1204CE50300CDA72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A296CADB5D47C3511BC9971D /* libPods-YSHNavigation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA175B9204CE50300CDA72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA175C4204CE50300CDA72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93E32DC1947AF50AE78811C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B6C2BD51D1895EA786E99 /* libPods-YSHNavigation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23935BD942F981AA3D01958 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C5F551F5AE8C9632FD5F981 /* Pods-YSHNavigation.debug.xcconfig */,
+				F5902CBF249CAC1133548DD9 /* Pods-YSHNavigation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEA1759B204CE50300CDA72F = {
+			isa = PBXGroup;
+			children = (
+				FEA175A6204CE50300CDA72F /* YSHNavigation */,
+				FEA175BF204CE50300CDA72F /* YSHNavigationTests */,
+				FEA175CA204CE50300CDA72F /* YSHNavigationUITests */,
+				FEA175A5204CE50300CDA72F /* Products */,
+				B23935BD942F981AA3D01958 /* Pods */,
+				93E32DC1947AF50AE78811C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA175A5204CE50300CDA72F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA175A4204CE50300CDA72F /* YSHNavigation.app */,
+				FEA175BC204CE50300CDA72F /* YSHNavigationTests.xctest */,
+				FEA175C7204CE50300CDA72F /* YSHNavigationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA175A6204CE50300CDA72F /* YSHNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				FEA175A7204CE50300CDA72F /* AppDelegate.h */,
+				FEA175A8204CE50300CDA72F /* AppDelegate.m */,
+				FEA175AA204CE50300CDA72F /* ViewController.h */,
+				FEA175AB204CE50300CDA72F /* ViewController.m */,
+				FEA175DC204CE97200CDA72F /* OneViewController.h */,
+				FEA175DD204CE97200CDA72F /* OneViewController.m */,
+				FEA175AD204CE50300CDA72F /* Main.storyboard */,
+				FEA175B0204CE50300CDA72F /* Assets.xcassets */,
+				FEA175B2204CE50300CDA72F /* LaunchScreen.storyboard */,
+				FEA175B5204CE50300CDA72F /* Info.plist */,
+				FEA175B6204CE50300CDA72F /* main.m */,
+				FEA175D9204CE75200CDA72F /* BaseViewController.h */,
+				FEA175DA204CE75200CDA72F /* BaseViewController.m */,
+				FEB9883C204E203300BC7F05 /* 苏宁易购刷新 */,
+			);
+			path = YSHNavigation;
+			sourceTree = "<group>";
+		};
+		FEA175BF204CE50300CDA72F /* YSHNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA175C0204CE50300CDA72F /* YSHNavigationTests.m */,
+				FEA175C2204CE50300CDA72F /* Info.plist */,
+			);
+			path = YSHNavigationTests;
+			sourceTree = "<group>";
+		};
+		FEA175CA204CE50300CDA72F /* YSHNavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA175CB204CE50300CDA72F /* YSHNavigationUITests.m */,
+				FEA175CD204CE50300CDA72F /* Info.plist */,
+			);
+			path = YSHNavigationUITests;
+			sourceTree = "<group>";
+		};
+		FEB9883C204E203300BC7F05 /* 苏宁易购刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				FE1B01A2204D165700744561 /* SNYGRefreshHeader.h */,
+				FE1B01A3204D165700744561 /* SNYGRefreshHeader.m */,
+				FE1B01A8204D3CE900744561 /* UIView+Animation.h */,
+				FE1B01A9204D3CE900744561 /* UIView+Animation.m */,
+			);
+			path = "苏宁易购刷新";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA175A3204CE50300CDA72F /* YSHNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA175D0204CE50300CDA72F /* Build configuration list for PBXNativeTarget "YSHNavigation" */;
+			buildPhases = (
+				41E53171F75D6823798A3EB2 /* [CP] Check Pods Manifest.lock */,
+				FEA175A0204CE50300CDA72F /* Sources */,
+				FEA175A1204CE50300CDA72F /* Frameworks */,
+				FEA175A2204CE50300CDA72F /* Resources */,
+				6AC2CC5D705267DEFD66DBE6 /* [CP] Embed Pods Frameworks */,
+				D07D276AF62568477714E028 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSHNavigation;
+			productName = YSHNavigation;
+			productReference = FEA175A4204CE50300CDA72F /* YSHNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA175BB204CE50300CDA72F /* YSHNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA175D3204CE50300CDA72F /* Build configuration list for PBXNativeTarget "YSHNavigationTests" */;
+			buildPhases = (
+				FEA175B8204CE50300CDA72F /* Sources */,
+				FEA175B9204CE50300CDA72F /* Frameworks */,
+				FEA175BA204CE50300CDA72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA175BE204CE50300CDA72F /* PBXTargetDependency */,
+			);
+			name = YSHNavigationTests;
+			productName = YSHNavigationTests;
+			productReference = FEA175BC204CE50300CDA72F /* YSHNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA175C6204CE50300CDA72F /* YSHNavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA175D6204CE50300CDA72F /* Build configuration list for PBXNativeTarget "YSHNavigationUITests" */;
+			buildPhases = (
+				FEA175C3204CE50300CDA72F /* Sources */,
+				FEA175C4204CE50300CDA72F /* Frameworks */,
+				FEA175C5204CE50300CDA72F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA175C9204CE50300CDA72F /* PBXTargetDependency */,
+			);
+			name = YSHNavigationUITests;
+			productName = YSHNavigationUITests;
+			productReference = FEA175C7204CE50300CDA72F /* YSHNavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA1759C204CE50300CDA72F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "袁书辉";
+				TargetAttributes = {
+					FEA175A3204CE50300CDA72F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FEA175BB204CE50300CDA72F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEA175A3204CE50300CDA72F;
+					};
+					FEA175C6204CE50300CDA72F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEA175A3204CE50300CDA72F;
+					};
+				};
+			};
+			buildConfigurationList = FEA1759F204CE50300CDA72F /* Build configuration list for PBXProject "YSHNavigation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA1759B204CE50300CDA72F;
+			productRefGroup = FEA175A5204CE50300CDA72F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA175A3204CE50300CDA72F /* YSHNavigation */,
+				FEA175BB204CE50300CDA72F /* YSHNavigationTests */,
+				FEA175C6204CE50300CDA72F /* YSHNavigationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA175A2204CE50300CDA72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA175B4204CE50300CDA72F /* LaunchScreen.storyboard in Resources */,
+				FEA175B1204CE50300CDA72F /* Assets.xcassets in Resources */,
+				FEA175AF204CE50300CDA72F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA175BA204CE50300CDA72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA175C5204CE50300CDA72F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41E53171F75D6823798A3EB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC2CC5D705267DEFD66DBE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSHNavigation/Pods-YSHNavigation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07D276AF62568477714E028 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSHNavigation/Pods-YSHNavigation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA175A0204CE50300CDA72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA175AC204CE50300CDA72F /* ViewController.m in Sources */,
+				FE1B01AA204D3CE900744561 /* UIView+Animation.m in Sources */,
+				FEA175DE204CE97200CDA72F /* OneViewController.m in Sources */,
+				FEA175DB204CE75200CDA72F /* BaseViewController.m in Sources */,
+				FEA175B7204CE50300CDA72F /* main.m in Sources */,
+				FEA175A9204CE50300CDA72F /* AppDelegate.m in Sources */,
+				FE1B01A4204D165700744561 /* SNYGRefreshHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA175B8204CE50300CDA72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA175C1204CE50300CDA72F /* YSHNavigationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA175C3204CE50300CDA72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA175CC204CE50300CDA72F /* YSHNavigationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA175BE204CE50300CDA72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA175A3204CE50300CDA72F /* YSHNavigation */;
+			targetProxy = FEA175BD204CE50300CDA72F /* PBXContainerItemProxy */;
+		};
+		FEA175C9204CE50300CDA72F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA175A3204CE50300CDA72F /* YSHNavigation */;
+			targetProxy = FEA175C8204CE50300CDA72F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA175AD204CE50300CDA72F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA175AE204CE50300CDA72F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA175B2204CE50300CDA72F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA175B3204CE50300CDA72F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA175CE204CE50300CDA72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEA175CF204CE50300CDA72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA175D1204CE50300CDA72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5F551F5AE8C9632FD5F981 /* Pods-YSHNavigation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = YSHNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.YSHNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEA175D2204CE50300CDA72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5902CBF249CAC1133548DD9 /* Pods-YSHNavigation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = YSHNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.YSHNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FEA175D4204CE50300CDA72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = YSHNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.YSHNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSHNavigation.app/YSHNavigation";
+			};
+			name = Debug;
+		};
+		FEA175D5204CE50300CDA72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = YSHNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.YSHNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSHNavigation.app/YSHNavigation";
+			};
+			name = Release;
+		};
+		FEA175D7204CE50300CDA72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = YSHNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.YSHNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSHNavigation;
+			};
+			name = Debug;
+		};
+		FEA175D8204CE50300CDA72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6K2R77NE3;
+				INFOPLIST_FILE = YSHNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiurong.YSHNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSHNavigation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA1759F204CE50300CDA72F /* Build configuration list for PBXProject "YSHNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA175CE204CE50300CDA72F /* Debug */,
+				FEA175CF204CE50300CDA72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA175D0204CE50300CDA72F /* Build configuration list for PBXNativeTarget "YSHNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA175D1204CE50300CDA72F /* Debug */,
+				FEA175D2204CE50300CDA72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA175D3204CE50300CDA72F /* Build configuration list for PBXNativeTarget "YSHNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA175D4204CE50300CDA72F /* Debug */,
+				FEA175D5204CE50300CDA72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA175D6204CE50300CDA72F /* Build configuration list for PBXNativeTarget "YSHNavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA175D7204CE50300CDA72F /* Debug */,
+				FEA175D8204CE50300CDA72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA1759C204CE50300CDA72F /* Project object */;
+}
